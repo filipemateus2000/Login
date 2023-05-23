@@ -7,10 +7,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00BFFF;
+}
+
+a {
+    padding: 10px;
+    color: black;
 }
 
 .main-login{
@@ -127,33 +140,38 @@ p {
 }
 
 @media only screen and (max-width: 600px){
-    .main-login{
+
+    header {
+        display: flex;
+    }
+
+    .main-login {
         flex-direction: column;
     }
    
-    h1{
+    h1 {
         display: none;
     }
     
-    .left-login{
+    .left-login {
         width: 100%;
         height: auto;
     }
     
-    .right-login{
+    .right-login {
         width: 100%;
         height: auto;
     }
 
-    .left-login-image{
+    .left-login-image {
         width: 50vw;
     }
 
-    .card-login{
+    .card-login {
         width: 100%;
     }
 
-    .logo{
+    .logo { 
         width: 50vw
     }
 
