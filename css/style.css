@@ -15,18 +15,6 @@ body{
     margin: 0;
 }
 
-.heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00BFFF;
-    position: fixed;
-    top:0; left:0; right:0;
-    z-index: 1000;
-    padding: 2rem 9%;
-    text-decoration: none;
-}
-
 a {
     padding: 10px;
     color: black;
@@ -153,8 +141,6 @@ h1 {
 
 .left-login-image {
     width: 35vw;
-    
-    
 }
 
 p {
@@ -167,16 +153,10 @@ p {
         width: 100%
     }
 
-    header {
-        display: column;
-    }
+    
 }
 
 @media only screen and (max-width: 600px){
-    header {
-        display: column;
-    }
-
     .main-login {
         flex-direction: column;
         
@@ -207,5 +187,4 @@ p {
     .logo { 
         width: 50vw
     }
-
 }
